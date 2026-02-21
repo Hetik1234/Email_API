@@ -1,7 +1,7 @@
-# notifications/urls.py
-from django.urls import path
+from django.urls import re_path
 from .views import SendEmailView
 
 urlpatterns = [
-    path('send/', SendEmailView.as_view(), name='send-email'),
+    # The /? at the end means "the slash is optional"
+    re_path(r'^send/?$', SendEmailView.as_view(), name='send-email'),
 ]
