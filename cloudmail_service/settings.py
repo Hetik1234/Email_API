@@ -133,3 +133,5 @@ EMAIL_USE_TLS=False
 EMAIL_USE_SSL=True
 EMAIL_HOST_USER='cloudmailapiservice@gmail.com'
 EMAIL_HOST_PASSWORD='fdlflajieezqhpeg'
+
+APPEND_SLASH = False
