@@ -33,6 +33,7 @@ class SendEmailView(APIView):
                 reply_to=[reply_to] if reply_to else None
             )
             
+            email.content_subtype = "html"
             attachment_status = "No attachment provided."
 
             # Verify the attachment exists AND is actually a file object (has a read() method)
