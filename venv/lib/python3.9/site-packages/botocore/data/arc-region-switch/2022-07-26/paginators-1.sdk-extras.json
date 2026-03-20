@@ -25,8 +25,7 @@
            "planArn",
            "actualRecoveryTime",
            "version",
-           "mode",
-           "generatedReportDetails"
+           "mode"
          ]
       }
     }
