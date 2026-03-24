@@ -20,7 +20,7 @@ reply_to,string,No,Email address that recipient replies will route to.
 attachment,file,No,A physical file to attach to the email.
 
 Integration ExamplesHere are ready-to-use snippets for the most common programming languages.
-1. cURL (Bash/Terminal)Bashcurl -X POST https://563u4wcc1g.execute-api.us-east-1.amazonaws.com/prod/api/send/ \
+1. cURL (Bash/Terminal)Bashcurl -X POST https://2rsma0i53j.execute-api.us-east-1.amazonaws.com/prod/api/send/ \
      -F "to_email=user@example.com" \
      -F "subject=Welcome to our app!" \
      -F "message=Thank you for signing up." \
@@ -32,7 +32,7 @@ Integration ExamplesHere are ready-to-use snippets for the most common programmi
 Python
 import requests
 
-url = "https://563u4wcc1g.execute-api.us-east-1.amazonaws.com/prod/api/send/"
+url = "https://2rsma0i53j.execute-api.us-east-1.amazonaws.com/prod/api/send/"
 
 data = {
     "to_email": "user@example.com",
@@ -52,7 +52,7 @@ print(response.json())
 
 3. JavaScript / Node.js (using fetch)
 JavaScript
-const url = "https://563u4wcc1g.execute-api.us-east-1.amazonaws.com/prod/api/send/";
+const url = "https://2rsma0i53j.execute-api.us-east-1.amazonaws.com/prod/api/send/";
 const formData = new FormData();
 
 formData.append("to_email", "user@example.com");
