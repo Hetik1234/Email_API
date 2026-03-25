@@ -131,7 +131,7 @@ EMAIL_HOST='smtp.gmail.com'
 EMAIL_PORT=465
 EMAIL_USE_TLS=False
 EMAIL_USE_SSL=True
-EMAIL_HOST_USER='cloudapi00@gmail.com'
-EMAIL_HOST_PASSWORD='ajstwcdmoitufqmq'
+EMAIL_HOST_USER='projectwebx12@gmail.com'
+EMAIL_HOST_PASSWORD='vpmsqynhbksgqqmx'
 
 APPEND_SLASH = False
